@@ -1,0 +1,229 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	  /*header start*/
+ header{
+      padding: 10px 0;
+ }
+ .manu ul li a {
+          padding: 10px 0 0 !important;
+          font-size: 16px;
+          text-align: right;
+}
+
+           /*header end*/
+           
+                      /*slider start*/
+.slider {
+    padding-bottom: 60px;
+}
+.s_text {
+    margin: 0;
+}
+.s_text h1 {
+    font-size: 25px;
+}
+.s_text h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.s_text p {
+    margin-bottom: 20px;
+}
+.s_icon ul li {
+    margin-right: 15px !important;
+}
+.c_ind {
+    bottom: -60px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+}
+
+           /*slider end*/
+           /*feature start*/
+.c_h1 {
+     margin-bottom: 10px; 
+    font-size: 22px;
+}
+.c_p {
+    font-size: 16px;
+    line-height: 25px;
+}
+               
+ .feature {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.single {
+    margin-top: 50px;
+}
+.single p{
+    line-height: 20px;
+}
+
+
+           /*feature end*/
+                /*contact start*/
+.single h1 {
+    font-size: 20px;
+}
+.con_h1 {
+    margin-top: 50px;
+}
+.c_p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.form {
+    margin: 10px 0 20px 0;
+}
+.form input {
+    margin-right: 5px;
+    height: 25px;
+    font-size: 12px;
+}
+.form button {
+    height: 25px;
+    padding: 0px 4px;
+}
+.s-icon {
+    padding-bottom: 55px;
+}
+.s-icon a i {
+    font-size: 25px;
+}
+
+           /*contact end*/
+.f_info {
+    line-height: 20px;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+     
+      /*header start*/
+ .manu ul li a {
+          padding: 10px 0 0 !important;
+          font-size: 20px;
+          text-align: right;
+}
+
+           /*header end*/
+           /*slider start*/
+.slider {
+    padding-bottom: 60px;
+}
+.s_text {
+    margin: 0;
+}
+.s_text h1 {
+    font-size: 25px;
+}
+.s_text h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.s_text p {
+    margin-bottom: 20px;
+}
+.s_icon ul li {
+    margin-right: 20px !important;
+}
+.c_ind {
+    bottom: -60px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+}
+
+           /*slider end*/
+                /*feature start*/
+ .feature {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.c_h1 {
+    
+    font-size: 28px;
+    
+}
+.c_p {
+    font-size: 18px;
+    line-height: 22px;
+}
+.single {
+    margin-top: 50px;
+}
+.single h1 {
+    font-size: 21px;
+}
+.single p{
+    line-height: 20px;
+}
+
+           /*feature end*/
+           /*contact start*/
+.con_h1 {
+    margin-top: 50px;
+}
+.form {
+    margin: 25px 0 40px 0;
+}
+.s-icon {
+    padding-bottom: 60px;
+}
+           /*contact end*/
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+        
+
+           /*header start*/
+ .manu ul li a {
+          padding: 10px 0 0 !important;
+          text-align: right;
+}
+
+           /*header end*/
+           /*feature start*/
+.feature {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.single {
+    margin-top: 80px;
+}
+            /*feature end*/
+            /*contact start*/
+.con_h1 {
+    margin-top: 80px;
+    
+}
+.form {
+    margin: 35px 0 40px 0;
+}
+.s-icon {
+    padding-bottom: 80px;
+}
+            /*contact end*/
+      
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { ... }
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
